@@ -192,9 +192,11 @@ $(document).ready(function(){
             
             } else {
                 $(".fixed-nav").css({"position":"relative", "z-index": "1", "background-color":"#fff", "opacity":"1"});
-                if($(window).width() < 992){
-                    $(".header_search").removeClass( "d-none" );
-                }
+                // if($(window).width() < 992){
+                //     $(".header_search").removeClass( "d-none" );
+                // }
+                $(".header_search").removeClass( "d-none" );
+
                 $(".top_bar").removeClass( "d-none" );
                 $(".main_nav").removeClass( "d-none" );
                 $(".page_menu").removeClass( "d-none" );
