@@ -1,0 +1,1848 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> -->
+    <!-- <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+    crossorigin="anonymous"
+  /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <!-- <link rel="stylesheet" href="./src/scss/_style.scss"> -->
+
+
+    <!-- owl -->
+    <!-- Basic stylesheet -->
+    <link rel="stylesheet" href="./src/owl-carousel/owl.carousel.css">
+
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="./src/owl-carousel/owl.theme.css">
+
+    <!-- Animate -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <link rel="stylesheet" href="./dist/css/style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+     
+
+
+  </head>
+  <body>
+
+    <div class="super_container fixed-nav">
+      <!-- Header -->
+      <header class="header">
+        <!-- Top Bar -->
+        <div class="top_bar">
+          <div class="container">
+            <div class="row">
+              <div class="col d-flex flex-row justify-content-between">
+                <div class="top_bar_contact_item">
+                  <div class="top_bar_icon">
+                    <!-- <img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918577/phone.png"
+                      alt=""
+                    /> -->
+                    <i class="fas fa-mobile-alt"></i>
+                  <a href="telto:+ 457 789 789 65">+ 457 789 789 65</a>
+
+                  </div>
+                  <div class="top_bar_icon">
+                    <!-- <img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918597/mail.png"
+                      alt=""
+                    /> -->
+                    <i class="far fa-envelope"></i>
+                  <a href="mailto:fastsales@gmail.com">info@shopwise.com</a>
+
+                  </div>
+                </div>
+                <!-- <div class="top_bar_contact_item">
+                            </div> -->
+                <div class="top_bar_content ml-auto">
+                  <div class="top_bar_menu">
+                    <ul class="standard_dropdown top_bar_dropdown">
+                      <li>
+                        <a href="#"
+                          >English<i class="fas fa-chevron-down"></i
+                        ></a>
+                        <ul>
+                          <li><a href="#">Italian</a></li>
+                          <li><a href="#">Spanish</a></li>
+                          <li><a href="#">Japanese</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">$ US<i class="fas fa-chevron-down"></i></a>
+                        <ul>
+                          <li><a href="#">EUR</a></li>
+                          <li><a href="#">GBP</a></li>
+                          <li><a href="#">JPY</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="top_bar_user">
+                    <div class="user_icon">
+                      <img
+                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918647/user.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div><a href="#">Register</a></div>
+                    <div><a href="#">Sign in</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Header Main -->
+        <div class="header_main">
+          <div class="container">
+            <div class="row">
+              <!-- Logo -->
+              <div class="col-lg-2 col-sm-3 col-3 order-1">
+                <div class="logo_container">
+                  <div class="logo">
+                    <a href="#"
+                      ><img src="./dist/img/logo-ShopWise.webp" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Search -->
+              <div
+                class="
+                  col-lg-6 col-12
+                  order-lg-2 order-3
+                  text-lg-left text-right
+                "
+              >
+                <div class="header_search">
+                  <div class="header_search_content">
+                    <div class="header_search_form_container">
+                      <form action="#" class="header_search_form clearfix">
+                        <input
+                          type="search"
+                          required="required"
+                          class="header_search_input"
+                          placeholder="Search for products..."
+                        />
+                        <div class="custom_dropdown" style="display: none">
+                          <div class="custom_dropdown_list">
+                            <span class="custom_dropdown_placeholder clc"
+                              >All Categories</span
+                            >
+                            <i class="fas fa-chevron-down"></i>
+                            <ul class="custom_list clc">
+                              <li>
+                                <a class="clc" href="#">All Categories</a>
+                              </li>
+                              <li><a class="clc" href="#">Computers</a></li>
+                              <li><a class="clc" href="#">Laptops</a></li>
+                              <li><a class="clc" href="#">Cameras</a></li>
+                              <li><a class="clc" href="#">Hardware</a></li>
+                              <li><a class="clc" href="#">Smartphones</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <button
+                          type="submit"
+                          class="header_search_button trans_300"
+                          value="Submit"
+                        >
+                          <img
+                            src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918770/search.png"
+                            alt=""
+                          />
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Wishlist -->
+              <div
+                class="
+                  col-lg-4 col-9
+                  order-lg-3 order-2
+                  text-lg-left text-right
+                "
+              >
+                <div
+                  class="
+                    wishlist_cart
+                    d-flex
+                    flex-row
+                    align-items-center
+                    justify-content-end
+                  "
+                >
+                  <div
+                    class="
+                      wishlist
+                      d-flex
+                      flex-row
+                      align-items-center
+                      justify-content-end
+                    "
+                  >
+                    <div class="wishlist_icon">
+                      <img
+                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918681/heart.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="wishlist_content">
+                      <div class="wishlist_text"><a href="#">Wishlist</a></div>
+                      <div class="wishlist_count">10</div>
+                    </div>
+                  </div>
+                  <!-- Cart -->
+                  <div class="cart">
+                    <div
+                      class="
+                        cart_container
+                        d-flex
+                        flex-row
+                        align-items-center
+                        justify-content-end
+                      "
+                    >
+                      <div class="cart_icon">
+                        <img
+                          src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918704/cart.png"
+                          alt=""
+                        />
+                        <div class="cart_count"><span>3</span></div>
+                      </div>
+                      <div class="cart_content">
+                        <div class="cart_text"><a href="#">Cart</a></div>
+                        <div class="cart_price">$185</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Main Navigation -->
+        <nav class="main_nav">
+          <div class="container-fluid g-0">
+            <div class="row">
+              <div class="col">
+                <div class="main_nav_content d-flex flex-row">
+                  <!-- Categories Menu -->
+                  <!-- Main Nav Menu -->
+                  <div class="main_nav_menu">
+                    <ul class="standard_dropdown main_nav_dropdown">
+                      <li>
+                        <a href="#">Home<i class="fas fa-chevron-down"></i></a>
+                      </li>
+                      <li>
+                        <a href="#">About<i class="fas fa-chevron-down"></i></a>
+                      </li>
+                      <li>
+                        <a href="#">Shop<i class="fas fa-chevron-down"></i></a>
+                      </li>
+                      <li>
+                        <a href="blog.html"
+                          >Faq<i class="fas fa-chevron-down"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="contact.html"
+                          >Contact<i class="fas fa-chevron-down"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Menu Trigger -->
+                  <div class="menu_trigger_container ml-auto">
+                    <div
+                      class="
+                        menu_trigger
+                        d-flex
+                        flex-row
+                        align-items-center
+                        justify-content-end
+                      "
+                    >
+                      <div class="menu_burger">
+                        <div class="menu_trigger_text">menu</div>
+                        <div id="isOpen" class="cat_burger menu_burger_inner">
+                          <span></span><span></span><span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- Menu -->
+        <div class="page_menu">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="page_menu_content">
+                  <div class="page_menu_search">
+                    <form action="#">
+                      <input
+                        type="search"
+                        required="required"
+                        class="page_menu_search_input"
+                        placeholder="Search for products..."
+                      />
+                    </form>
+                  </div>
+                  <ul class="page_menu_nav">
+                    <li class="page_menu_item has-children">
+                      <a href="#">Language<i class="fa fa-angle-down"></i></a>
+                      <ul class="page_menu_selection">
+                        <li>
+                          <a href="#"
+                            >English<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >Italian<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >Spanish<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >Japanese<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="page_menu_item has-children">
+                      <a href="#">Currency<i class="fa fa-angle-down"></i></a>
+                      <ul class="page_menu_selection">
+                        <li>
+                          <a href="#"
+                            >US Dollar<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >EUR Euro<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >GBP British Pound<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >JPY Japanese Yen<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="page_menu_item">
+                      <a href="#">Home<i class="fa fa-angle-down"></i></a>
+                    </li>
+                    <li class="page_menu_item has-children">
+                      <a href="#"
+                        >Super Deals<i class="fa fa-angle-down"></i
+                      ></a>
+                      <ul class="page_menu_selection">
+                        <li>
+                          <a href="#"
+                            >Super Deals<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li class="page_menu_item has-children">
+                          <a href="#"
+                            >Menu Item<i class="fa fa-angle-down"></i
+                          ></a>
+                          <ul class="page_menu_selection">
+                            <li>
+                              <a href="#"
+                                >Menu Item<i class="fa fa-angle-down"></i
+                              ></a>
+                            </li>
+                            <li>
+                              <a href="#"
+                                >Menu Item<i class="fa fa-angle-down"></i
+                              ></a>
+                            </li>
+                            <li>
+                              <a href="#"
+                                >Menu Item<i class="fa fa-angle-down"></i
+                              ></a>
+                            </li>
+                            <li>
+                              <a href="#"
+                                >Menu Item<i class="fa fa-angle-down"></i
+                              ></a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >Menu Item<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >Menu Item<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >Menu Item<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="page_menu_item has-children">
+                      <a href="#"
+                        >Featured Brands<i class="fa fa-angle-down"></i
+                      ></a>
+                      <ul class="page_menu_selection">
+                        <li>
+                          <a href="#"
+                            >Featured Brands<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >Menu Item<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >Menu Item<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >Menu Item<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="page_menu_item has-children">
+                      <a href="#"
+                        >Trending Styles<i class="fa fa-angle-down"></i
+                      ></a>
+                      <ul class="page_menu_selection">
+                        <li>
+                          <a href="#"
+                            >Trending Styles<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >Menu Item<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >Menu Item<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            >Menu Item<i class="fa fa-angle-down"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="page_menu_item">
+                      <a href="blog.html"
+                        >blog<i class="fa fa-angle-down"></i
+                      ></a>
+                    </li>
+                    <li class="page_menu_item">
+                      <a href="contact.html"
+                        >contact<i class="fa fa-angle-down"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <div class="menu_contact">
+                    <div class="menu_contact_item">
+                      <div class="menu_contact_icon">
+                        <img src="images/phone_white.png" alt="" />
+                      </div>
+                      +38 068 005 3570
+                    </div>
+                    <div class="menu_contact_item">
+                      <div class="menu_contact_icon">
+                        <img src="images/mail_white.png" alt="" />
+                      </div>
+                      <a href="mailto:fastsales@gmail.com"
+                        >fastsales@gmail.com</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <section class="carousel-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-12 g-0">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div
+                  class="carousel-item active"
+                  style="background-image: url(/dist/img/slider/banner1.jpg)"
+                >
+                  <div class="slider-content">
+                    <span class="animate__animated animate__fadeInLeft">50% off in all products</span>
+                    <h1 class="mb-3 mt-2 animate__animated animate__fadeInLeft">Woman Fashion</h1>
+                    <button class="close animate-button animate__animated animate__fadeInLeft">Shop Now</button>
+                  </div>
+                </div>
+                <div
+                  class="carousel-item"
+                  style="background-image: url(/dist/img/slider/banner2.jpg)"
+                >
+                  <div class="slider-content">
+                    <span class="animate__animated animate__fadeInLeft"
+                      >Get up to 50% off Today Only!</span
+                    >
+                    <h1 class="animate__animated animate__fadeInLeft">Man Fashion</h1>
+                    <button class="close animate-button animate__animated animate__fadeInLeft">Shop Now</button>
+                  </div>
+                </div>
+                <div
+                  class="carousel-item"
+                  style="background-image: url(/dist/img/slider/banner3.jpg)"
+                >
+                  <div class="slider-content">
+                    <span class="animate__animated animate__fadeInLeft">Taking your Viewing Experience to Next Level</span>
+                    <h1 class="animate__animated animate__fadeInLeft">Summer Sale</h1>
+                    <button class="close animate-button animate__animated animate__fadeInLeft">Shop Now</button>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev arrow"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span> -->
+                <span class="arrow"
+                  ><i class="fas fa-chevron-left fa-5x"></i
+                ></span>
+              </button>
+              <button
+                class="carousel-control-next arrow"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <!-- <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span> -->
+                <span class="arrow"
+                  ><i class="fas fa-chevron-right fa-5x"></i
+                ></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="images-section">
+      <div class="container-fluid images hider g-0">
+        <div class="row g-0">
+          <div class="image-column col-12 col-md-6 col-lg-6 g-0">
+            <img
+              class="img-fluid rounded mx-auto d-block p-3"
+              src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/shop_banner_img1.jpg"
+              alt=""
+            />
+            <div class="image-content g-0">
+              <h1>Super Sale</h1>
+              <p>New Collection</p>
+              <a href="">Shop Now</a>
+            </div>
+          </div>
+          <div class="image-column col-12 col-md-6 col-lg-6 g-0">
+            <img
+              class="img-fluid rounded mx-auto d-block p-3"
+              src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/shop_banner_img2.jpg"
+              alt=""
+            />
+            <div class="image-content">
+              <h1>Super Sale</h1>
+              <p>New Collection</p>
+              <a href="">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hider card-section g-0">
+      <div class="container-md container-fluid isotope-cards g-0">
+        <!--Start Card Header -->
+        <div class="row g-0">
+          <div class="cards-title">
+            <h1>Exclusive Products</h1>
+          </div>
+        </div>
+        <div class="cards-links">
+          <ul class="nav justify-content-center">
+            <li class="nav-item" data-filter="best-seller">
+              <a class="nav-link">Best Sellers</a>
+            </li>
+            <li class="nav-item" data-filter="featured">
+              <a class="nav-link">featured</a>
+            </li>
+            <li class="nav-item" data-filter="new-arrival">
+              <a class="nav-link">New Arrival</a>
+            </li>
+            <li class="nav-item" data-filter="special-offer">
+              <a class="nav-link">Special Offer</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- End Card Header -->
+
+        <div
+          class="
+            row
+            d-flex
+            justify-content-center
+            row-cols-1 row-cols-md-2 row-cols-sx-2
+            align-items-baseline
+            flex-sm-row
+            g-0
+            card-items
+          "
+        >
+          <div class="card m-2 my-3 item best-seller">
+            <div class="product-image-box">
+              <span class="discount">-40%</span>
+              <div class="product-img">
+                <img
+                  src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="image-buttons">
+                <ul>
+                  <li>
+                    <a
+                      title="Add to card"
+                      href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Go details"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-search-plus"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Add to wishlist"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-heart"></i
+                    ></a>
+                  </li>
+                  <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                </ul>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+              <div class="price-box">
+                <span class="old-price">$65.00</span>
+                <span class="price"> $39.00</span>
+              </div>
+              <div class="rating-box">
+                <div class="stars">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+
+                <div class="rating px-2">
+                  <span class="raiting-number">(3)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card m-2 my-3 item featured">
+            <div class="product-image-box">
+              <span class="discount">-40%</span>
+              <div class="product-img">
+                <img
+                  src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="image-buttons">
+                <ul>
+                  <li>
+                    <a
+                      title="Add to card"
+                      href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Go details"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-search-plus"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Add to wishlist"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-heart"></i
+                    ></a>
+                  </li>
+                  <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                </ul>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+              <div class="price-box">
+                <span class="old-price">$65.00</span>
+                <span class="price"> $39.00</span>
+              </div>
+              <div class="rating-box">
+                <div class="stars">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+
+                <div class="rating px-2">
+                  <span class="raiting-number">(3)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card m-2 my-3 item best-seller">
+            <div class="product-image-box">
+              <span class="discount">-40%</span>
+              <div class="product-img">
+                <img
+                  src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="image-buttons">
+                <ul>
+                  <li>
+                    <a
+                      title="Add to card"
+                      href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Go details"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-search-plus"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Add to wishlist"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-heart"></i
+                    ></a>
+                  </li>
+                  <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                </ul>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+              <div class="price-box">
+                <span class="old-price">$65.00</span>
+                <span class="price"> $39.00</span>
+              </div>
+              <div class="rating-box">
+                <div class="stars">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+
+                <div class="rating px-2">
+                  <span class="raiting-number">(3)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card m-2 my-3 item new-arrival">
+            <div class="product-image-box">
+              <span class="discount">-40%</span>
+              <div class="product-img">
+                <img
+                  src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="image-buttons">
+                <ul>
+                  <li>
+                    <a
+                      title="Add to card"
+                      href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Go details"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-search-plus"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Add to wishlist"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-heart"></i
+                    ></a>
+                  </li>
+                  <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                </ul>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+              <div class="price-box">
+                <span class="old-price">$65.00</span>
+                <span class="price"> $39.00</span>
+              </div>
+              <div class="rating-box">
+                <div class="stars">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+
+                <div class="rating px-2">
+                  <span class="raiting-number">(3)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card m-2 my-3 item best-seller">
+            <div class="product-image-box">
+              <span class="discount">-40%</span>
+              <div class="product-img">
+                <img
+                  src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="image-buttons">
+                <ul>
+                  <li>
+                    <a
+                      title="Add to card"
+                      href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Go details"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-search-plus"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Add to wishlist"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-heart"></i
+                    ></a>
+                  </li>
+                  <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                </ul>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+              <div class="price-box">
+                <span class="old-price">$65.00</span>
+                <span class="price"> $39.00</span>
+              </div>
+              <div class="rating-box">
+                <div class="stars">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+
+                <div class="rating px-2">
+                  <span class="raiting-number">(3)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card m-2 my-3 item new-arrival">
+            <div class="product-image-box">
+              <span class="discount">-40%</span>
+              <div class="product-img">
+                <img
+                  src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="image-buttons">
+                <ul>
+                  <li>
+                    <a
+                      title="Add to card"
+                      href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Go details"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-search-plus"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Add to wishlist"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-heart"></i
+                    ></a>
+                  </li>
+                  <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                </ul>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+              <div class="price-box">
+                <span class="old-price">$65.00</span>
+                <span class="price"> $39.00</span>
+              </div>
+              <div class="rating-box">
+                <div class="stars">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+
+                <div class="rating px-2">
+                  <span class="raiting-number">(3)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card m-2 my-3 item best-seller">
+            <div class="product-image-box">
+              <span class="discount">-40%</span>
+              <div class="product-img">
+                <img
+                  src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="image-buttons">
+                <ul>
+                  <li>
+                    <a
+                      title="Add to card"
+                      href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Go details"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-search-plus"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Add to wishlist"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-heart"></i
+                    ></a>
+                  </li>
+                  <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                </ul>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+              <div class="price-box">
+                <span class="old-price">$65.00</span>
+                <span class="price"> $39.00</span>
+              </div>
+              <div class="rating-box">
+                <div class="stars">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+
+                <div class="rating px-2">
+                  <span class="raiting-number">(3)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card m-2 my-3 item special-offer best-seller">
+            <div class="product-image-box">
+              <span class="discount">-40%</span>
+              <div class="product-img">
+                <img
+                  src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="image-buttons">
+                <ul>
+                  <li>
+                    <a
+                      title="Add to card"
+                      href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Go details"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-search-plus"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      title="Add to wishlist"
+                      href="https://klbtheme.com/shopwise/fashion/"
+                      ><i class="fas fa-heart"></i
+                    ></a>
+                  </li>
+                  <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                </ul>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+              <div class="price-box">
+                <span class="old-price">$65.00</span>
+                <span class="price"> $39.00</span>
+              </div>
+              <div class="rating-box">
+                <div class="stars">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+
+                <div class="rating px-2">
+                  <span class="raiting-number">(3)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trends">
+      <div class="container">
+        <div class="row align-items-center flex-row-reverse">
+          <div
+            class="news col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-5"
+          >
+            <span>New season trends!</span>
+            <h1 class="mb-3">Best Summer Collection</h1>
+            <p class="mb-4">Sale Get up to 50% Off</p>
+            <button class="close animate-button">Shop Now</button>
+          </div>
+          <div
+            class="
+              picture-news
+              col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6
+            "
+          >
+            <img
+              src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/tranding_img.png"
+              width="460"
+              height="420"
+              alt="Image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- owl cards -->
+    <section class="hider card-section g-0">
+      <div class=" container-fluid  owl-carousel-cards g-0">
+        <!--Start Card Header -->
+        <div class="row g-0 pb-3">
+          <div class="cards-title">
+            <h1>Featured Products</h1>
+          </div>
+        </div>
+
+        <!-- End Card Header -->
+        <div
+          class="
+            row
+            g-0
+            owl-card-items
+            d-flex
+          "
+        >
+          
+          <div id="owl-demo" data-owlCarousel class="owl-cards col-10 order-2 owl-carousel d-flex owl-theme">
+            <div  class=" m-2 my-3 item ">
+              <div class="product-image-box">
+                <span class="discount">-40%</span>
+                <div class="product-img">
+                  <img
+                    src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="image-buttons">
+                  <ul>
+                    <li>
+                      <a
+                        title="Add to card"
+                        href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                        ><i class="fas fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        title="Go details"
+                        href="https://klbtheme.com/shopwise/fashion/"
+                        ><i class="fas fa-search-plus"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        title="Add to wishlist"
+                        href="https://klbtheme.com/shopwise/fashion/"
+                        ><i class="fas fa-heart"></i
+                      ></a>
+                    </li>
+                    <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                  </ul>
+                </div>
+              </div>
+  
+              <div class="card-body">
+                <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+                <div class="price-box">
+                  <span class="old-price">$65.00</span>
+                  <span class="price"> $39.00</span>
+                </div>
+                <div class="rating-box">
+                  <div class="stars">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+  
+                  <div class="rating px-2">
+                    <span class="raiting-number">(3)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" m-2 my-3 item ">
+              <div class="product-image-box">
+                <span class="discount">-40%</span>
+                <div class="product-img">
+                  <img
+                    src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="image-buttons">
+                  <ul>
+                    <li>
+                      <a
+                        title="Add to card"
+                        href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                        ><i class="fas fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        title="Go details"
+                        href="https://klbtheme.com/shopwise/fashion/"
+                        ><i class="fas fa-search-plus"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        title="Add to wishlist"
+                        href="https://klbtheme.com/shopwise/fashion/"
+                        ><i class="fas fa-heart"></i
+                      ></a>
+                    </li>
+                    <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                  </ul>
+                </div>
+              </div>
+  
+              <div class="card-body">
+                <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+                <div class="price-box">
+                  <span class="old-price">$65.00</span>
+                  <span class="price"> $39.00</span>
+                </div>
+                <div class="rating-box">
+                  <div class="stars">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+  
+                  <div class="rating px-2">
+                    <span class="raiting-number">(3)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" m-2 my-3 item ">
+              <div class="product-image-box">
+                <span class="discount">-40%</span>
+                <div class="product-img">
+                  <img
+                    src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="image-buttons">
+                  <ul>
+                    <li>
+                      <a
+                        title="Add to card"
+                        href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                        ><i class="fas fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        title="Go details"
+                        href="https://klbtheme.com/shopwise/fashion/"
+                        ><i class="fas fa-search-plus"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        title="Add to wishlist"
+                        href="https://klbtheme.com/shopwise/fashion/"
+                        ><i class="fas fa-heart"></i
+                      ></a>
+                    </li>
+                    <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                  </ul>
+                </div>
+              </div>
+  
+              <div class="card-body">
+                <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+                <div class="price-box">
+                  <span class="old-price">$65.00</span>
+                  <span class="price"> $39.00</span>
+                </div>
+                <div class="rating-box">
+                  <div class="stars">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+  
+                  <div class="rating px-2">
+                    <span class="raiting-number">(3)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" m-2 my-3 item ">
+              <div class="product-image-box">
+                <span class="discount">-40%</span>
+                <div class="product-img">
+                  <img
+                    src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="image-buttons">
+                  <ul>
+                    <li>
+                      <a
+                        title="Add to card"
+                        href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                        ><i class="fas fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        title="Go details"
+                        href="https://klbtheme.com/shopwise/fashion/"
+                        ><i class="fas fa-search-plus"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        title="Add to wishlist"
+                        href="https://klbtheme.com/shopwise/fashion/"
+                        ><i class="fas fa-heart"></i
+                      ></a>
+                    </li>
+                    <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                  </ul>
+                </div>
+              </div>
+  
+              <div class="card-body">
+                <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+                <div class="price-box">
+                  <span class="old-price">$65.00</span>
+                  <span class="price"> $39.00</span>
+                </div>
+                <div class="rating-box">
+                  <div class="stars">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+  
+                  <div class="rating px-2">
+                    <span class="raiting-number">(3)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" m-2 my-3 item ">
+              <div class="product-image-box">
+                <span class="discount">-40%</span>
+                <div class="product-img">
+                  <img
+                    src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="image-buttons">
+                  <ul>
+                    <li>
+                      <a
+                        title="Add to card"
+                        href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                        ><i class="fas fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        title="Go details"
+                        href="https://klbtheme.com/shopwise/fashion/"
+                        ><i class="fas fa-search-plus"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        title="Add to wishlist"
+                        href="https://klbtheme.com/shopwise/fashion/"
+                        ><i class="fas fa-heart"></i
+                      ></a>
+                    </li>
+                    <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                  </ul>
+                </div>
+              </div>
+  
+              <div class="card-body">
+                <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+                <div class="price-box">
+                  <span class="old-price">$65.00</span>
+                  <span class="price"> $39.00</span>
+                </div>
+                <div class="rating-box">
+                  <div class="stars">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+  
+                  <div class="rating px-2">
+                    <span class="raiting-number">(3)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" m-2 my-3 item ">
+              <div class="product-image-box">
+                <span class="discount">-40%</span>
+                <div class="product-img">
+                  <img
+                    src="	https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/product_img1-1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="image-buttons">
+                  <ul>
+                    <li>
+                      <a
+                        title="Add to card"
+                        href="https://www.youtube.com/watch?v=3IzleQ7UYLA"
+                        ><i class="fas fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        title="Go details"
+                        href="https://klbtheme.com/shopwise/fashion/"
+                        ><i class="fas fa-search-plus"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        title="Add to wishlist"
+                        href="https://klbtheme.com/shopwise/fashion/"
+                        ><i class="fas fa-heart"></i
+                      ></a>
+                    </li>
+                    <!-- <li><a href="https://klbtheme.com/shopwise/fashion/"></a></li> -->
+                  </ul>
+                </div>
+              </div>
+  
+              <div class="card-body">
+                <h5 class="product-title"><a href="">Blue Dress For Woman</a></h5>
+                <div class="price-box">
+                  <span class="old-price">$65.00</span>
+                  <span class="price"> $39.00</span>
+                </div>
+                <div class="rating-box">
+                  <div class="stars">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+  
+                  <div class="rating px-2">
+                    <span class="raiting-number">(3)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="prev owl-arrow col-1 order-1">
+          <a id="owl-prev"><i class='fas fa-chevron-left fa-2x'></i></a>
+          </div>
+
+          <div class="next  owl-arrow col-1 order-3 ms-auto">
+          <a id="owl-next"><i class='fas fa-chevron-right fa-2x'></i></a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="container-fluid main-cont">
+        <div class="container nestesd-cont">
+          <div class="row align-items-center g-0">
+
+            <div class="col-lg-4 testimonial-content">
+            <span>Testimonial</span>
+            <h2>Our Client Say!</h2>
+            <p class="mb-lg-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+
+            <div class="col-lg-8 testimonial-carousel-main">
+              <div class="testimonial-owl-carousel">
+                <div id="owl-tes"  class="owl-stage">
+
+                  <div class="tes-owl-item">
+                    <div class="author-main">
+                      <div class="author-image">
+                        <img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/05/user1.jpg" alt="">
+                      </div>
+                      <div class="author-info">
+                        <h6>Daisy Lana</h6>
+                        <span>Designer</span>
+                      </div>
+                    </div>
+                    <div class="author-message">
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem amet laudantium, quaeillo inventore sed veritatis et quasi architecto beatae vitae dicta sunt explicabo eiusmod tempor incididunt ut labore.</p>
+                    </div>
+                  </div>
+
+                  <div class="tes-owl-item">
+                    <div class="author-main">
+                      <div class="author-image">
+                        <img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/05/user3.jpg" alt="">
+                      </div>
+                      <div class="author-info">
+                        <h6>Daisy Lana</h6>
+                        <span>Designer</span>
+                      </div>
+                    </div>
+                    <div class="author-message">
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem amet laudantium, quaeillo inventore sed veritatis et quasi architecto beatae vitae dicta sunt explicabo eiusmod tempor incididunt ut labore.</p>
+                    </div>
+                  </div>
+                  <div class="tes-owl-item">
+                    <div class="author-main">
+                      <div class="author-image">
+                        <img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/05/user1.jpg" alt="">
+                      </div>
+                      <div class="author-info">
+                        <h6>Daisy Lana</h6>
+                        <span>Designer</span>
+                      </div>
+                    </div>
+                    <div class="author-message">
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem amet laudantium, quaeillo inventore sed veritatis et quasi architecto beatae vitae dicta sunt explicabo eiusmod tempor incididunt ut labore.</p>
+                    </div>
+                  </div>
+
+                  <div class="tes-owl-item">
+                    <div class="author-main">
+                      <div class="author-image">
+                        <img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/05/user3.jpg" alt="">
+                      </div>
+                      <div class="author-info">
+                        <h6>Daisy Lana</h6>
+                        <span>Designer</span>
+                      </div>
+                    </div>
+                    <div class="author-message">
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem amet laudantium, quaeillo inventore sed veritatis et quasi architecto beatae vitae dicta sunt explicabo eiusmod tempor incididunt ut labore.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="owl-nav"> 
+                <div id="testimonial-prev" class="tes-arrow"><a><i class='fas fa-chevron-left'></i></a></div>
+                <div id="testimonial-next" class="tes-arrow"><a><i class='fas fa-chevron-right'></i></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners">
+      <div class="container">
+        <div class="row g-0 justify-content-center">
+          <div class="col-12 col-lg-10">
+            <div class="container">
+              <div class="partner-imagebox justify-content-center">
+                <div class="partner-item"><img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/cl_logo1-1.png" alt=""></div>
+                <div class="partner-item"><img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/cl_logo2-1.png" alt=""></div>
+                <div class="partner-item"><img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/cl_logo3-1.png" alt=""></div>
+                <div class="partner-item"><img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/cl_logo4-1.png" alt=""></div>
+                <div class="partner-item"><img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/cl_logo5-1.png" alt=""></div>
+                <div class="partner-item"><img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/cl_logo6-1.png" alt=""></div>
+                <div class="partner-item"><img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/cl_logo7-1.png" alt=""></div>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="container-fluid subs-cont">
+        <div class="container nested-cont">
+          <div class="row g-0 align-items-center ">
+            <div class="col-12 col-md-5 pb-2 pb-sm-0 offset-0 offset-md-1 subs-text mb-xs-2 mb-sm-2">
+              <h1>Subscribe Our Newsletter</h1>
+            </div>
+            <div class="col-12 col-md-5 offset-md-12 subs-form-box">
+              <form>
+                <div class="d-flex">
+                  <input type="email" class="form-control" placeholder="Your email address" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <button type="submit" class="form-button">Sign Up</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-fluid footer">
+        <div class="container">
+          <div class="row g-0 footer-top-part">
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="main-footer">
+                <div class="top-footer-info">
+                  <a href=""><img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/logo_light-1.png" alt="footer-logo"></a>
+                  <p>If you are going to use of Lorem Ipsum need to be sure there isn't hidden of text</p>
+                </div>
+                <ul class="social-icons">
+                  <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                  <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                  <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                </ul>
+
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <div class="useful-links">
+                <h1>Useful Links</h1>
+                <div class="useful-listbox">
+                  <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Faq</a></li>
+                    <li><a href="">Location</a></li>
+                    <li><a href="">Affiliates</a></li>
+                    <li><a href="">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <div class="category">
+                <h2>Category</h2>
+                <div class="category-listbox">
+                  <ul>
+                    <li><a href="">Men</a></li>
+                    <li><a href="">Women</a></li>
+                    <li><a href="">Kid’s</a></li>
+                    <li><a href="">Special Offer</a></li>
+                    <li><a href="">Best Sellers</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <div class="my-account">
+                <h3>My Account</h3>
+                <div class="account-listbox">
+                  <ul>
+                    <li><a href="">My account</a></li>
+                    <li><a href="">Discount</a></li>
+                    <li><a href="">Returns</a></li>
+                    <li><a href="">Orders History</a></li>
+                    <li><a href="">Order Tracking</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="contact-info">
+                <h4>Contact Info</h4>
+                <div class="contact-listbox">
+                  <ul>
+                    <li><a href="">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <p>123 Street, Old Trafford, New South London , UK</p>
+                    </a></li>
+                    <li><a href="">
+                      <i class="far fa-envelope"></i>
+                      <p>info@shopwise.com</p>
+                    </a></li>
+                    <li><a href="">
+                      <i class="fas fa-mobile-alt"></i></i>
+                      <p>+ 457 789 789 65</p>
+                    </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row g-0 footer-bottom-part">
+            <div class="col-md-6"><p class="mb-md-0  text-md-left text-lg-left">Copyright 2021.KlbTheme . All rights reserved</p></div>
+            <div class="col-md-6">
+              <ul class="footer-payment text-center text-lg-right">
+                <li><img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/visa-1.png" alt=""></li>
+                <li><img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/discover-1.png" alt=""></li>
+                <li><img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/master_card-1.png" alt=""></li>
+                <li><img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/paypal-1.png" alt=""></li>
+                <li><img src="https://klbtheme.com/shopwise/fashion/wp-content/uploads/2020/04/amarican_express-1.png" alt=""></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> -->
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script> -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+    <!-- isotope -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="./dist/js/isotope.pkgd.min.js"></script>
+   
+    <!-- Include js plugin OWL -->
+    <script src="./src//owl-carousel/owl.carousel.js"></script>
+
+    <script src="./dist/js/script.js"></script>
+  </body>
+</html>
